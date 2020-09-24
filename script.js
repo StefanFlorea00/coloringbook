@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", start);
 async function start() {
   let response = await fetch("squid-01.svg");
   let mySvgData = await response.text();
-  document.querySelector(".wrapper").innerHTML = mySvgData;
+  document.querySelector(".svg-wrapper").innerHTML = mySvgData;
   initColoringBook();
   addColorPickerEvents();
   addSave();
