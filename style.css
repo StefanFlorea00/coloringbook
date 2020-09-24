@@ -2,12 +2,53 @@ body {
   background-color: lightgray;
 }
 
+#save-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+#clear-btn {
+  width: 100px;
+}
+
+path:hover {
+  stroke: darkblue;
+  stroke-width: 3px;
+  transform: scale(1.01);
+  transform-origin: center;
+  cursor: pointer;
+}
+
 .wrapper {
   width: 800px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
+}
+
+.selected-color-wrapper {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  display: flex;
+}
+
+.selected-color-wrapper div {
+  height: 25px;
+  width: 100px;
 }
 
 .colors {
@@ -25,16 +66,27 @@ body {
   border-right: 0px;
 }
 
+.colors div:hover {
+  cursor: pointer;
+}
+
+.colors input {
+  -webkit-appearance: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
 #color1 {
-  background-color: #FEFEFD;
+  background-color: #fefefd;
 }
 
 #color2 {
-  background-color: #8C1308;
+  background-color: #8c1308;
 }
 
 #color3 {
-  background-color: #EBB58D;
+  background-color: #ebb58d;
 }
 
 #color4 {
@@ -42,5 +94,5 @@ body {
 }
 
 #color5 {
-  background-color: #A4230F;
+  background-color: #a4230f;
 }
