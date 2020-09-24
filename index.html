@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <div class="button-wrapper">
-    <button id="save-btn">Save</button>
-    <button id="clear-btn">Clear</button>
-  </div>
-  <div class="wrapper"></div>
-  <div class="colors">
-    <div id="color1">
-      <input type="color" id="body" name="body" value="#fefefd">
+  <body>
+    <div class="wrapper"></div>
+    <div class="colors">
+      <div id="color1">
+        <input type="color" id="body" name="body" value="#fefefd" />
+      </div>
+      <div id="color2">
+        <input type="color" id="body" name="body" value="#8c1308" />
+      </div>
+      <div id="color3">
+        <input type="color" id="body" name="body" value="#ebb58d" />
+      </div>
+      <div id="color4">
+        <input type="color" id="body" name="body" value="#160101" />
+      </div>
+      <div id="color5">
+        <input type="color" id="body" name="body" value="#a4230f" />
+      </div>
     </div>
-    <div id="color2">
-      <input type="color" id="body" name="body" value="#8c1308">
+    <div class="selected-color"></div>
+    <div class="button-wrapper">
+      <button id="save-btn" class="btn">Save</button>
+      <button id="clear-btn" class="btn">Clear</button>
     </div>
-    <div id="color3">
-      <input type="color" id="body" name="body" value="#ebb58d">
-    </div>
-    <div id="color4">
-      <input type="color" id="body" name="body" value="#160101">
-    </div>
-    <div id="color5">
-      <input type="color" id="body" name="body" value="#a4230f">
-    </div>
-  </div>
-  <div class="selected-color-wrapper">
-    <div class="selected-color">
-    </div>
-  </div>
-</body>
-<script src="script.js"></script>
-
+  </body>
+  <script src="script.js"></script>
 </html>
